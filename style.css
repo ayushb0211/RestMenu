@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:wght@500&display=swap");
+
+@media screen and (max-width: 600px) {
+  .head {
+    flex-direction: column;
+  }
+  .menu {
+    flex-direction: row;
+  }
+  body {
+    border-width: 98%;
+  }
+}
+.head {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  border: 98% solid black;
+  margin: 1px;
+  padding: 4px;
+  background-color: #fefedf;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#name {
+  font-family: "Playfair Display";
+  text-align: center;
+  background-color: #9b89b3;
+  color: #4b4453;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  position: sticky;
+  top: 0;
+}
+#address {
+  margin-top: 0px;
+  color: brown;
+}
+.head {
+  text-align: center;
+}
+#disc {
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+}
+
+.img {
+  margin: 10px;
+  border: 0.5px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.foot {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+/* .about {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+.Contact {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+} */
+.days {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.footer1 {
+  background-color: #ccc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer1 ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.footer1 li {
+  display: inline-block;
+}
+.footer1 a {
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  color: black;
+}
